@@ -11,7 +11,7 @@
         "php": "^8.3",
         "laravel/framework": "^13.17",
         "laravel/tinker": "^3.0",
-        "pine/commerce": "^1.2"
+        "pine/commerce": "^1.3"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",

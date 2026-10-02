@@ -48,7 +48,7 @@ The step-by-step playbook for setting up / migrating a client is `docs/PLAYBOOK.
 
 This is the **base system** of Pine Commerce: a plain Laravel 13 application that pulls in the platform,
 [`pine/commerce`](https://github.com/SetWebUK/ecom-core), through composer (`composer.json` → `repositories`:
-`{"type": "vcs", "url": "https://github.com/SetWebUK/ecom-core.git"}`, `"pine/commerce": "^1.2"`). The shop itself – storefront, back office,
+`{"type": "vcs", "url": "https://github.com/SetWebUK/ecom-core.git"}`, `"pine/commerce": "^1.3"`). The shop itself – storefront, back office,
 default theme, WordPress importer – lives in `vendor/pine/commerce` and is upgraded with
 `composer update pine/commerce`. Everything a client changes lives in this app: `config/commerce*.php`,
 `themes/`, `app/Providers/ClientServiceProvider.php`, `app/Import/`.
@@ -80,7 +80,7 @@ Recommended (names everything for you):
 
     git clone https://github.com/SetWebUK/ecom-skeleton.git /tmp/commerce-skeleton && cd /tmp/commerce-skeleton
     composer install
-    php artisan commerce:new-client /var/www/acme/app --name="Acme Tools" --slug=acme --repo=https://github.com/SetWebUK/ecom-core.git --constraint=^1.2
+    php artisan commerce:new-client /var/www/acme/app --name="Acme Tools" --slug=acme --repo=https://github.com/SetWebUK/ecom-core.git --constraint=^1.3
 
 Or copy it by hand: clone into the new project directory, `rm -rf .git && git init`, then replace
 "Commerce Skeleton" / "commerce-skeleton" in `composer.json`, `.env.example` and this README. A client's own
