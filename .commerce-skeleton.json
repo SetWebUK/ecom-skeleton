@@ -1,6 +1,6 @@
 {
     "repository": "https://github.com/SetWebUK/ecom-skeleton.git",
-    "ref": "v1.3.0",
+    "ref": "v1.6.0",
     "commit": null,
     "name": "Commerce Skeleton",
     "slug": "commerce-skeleton",
@@ -9,7 +9,7 @@
     "created_by": "commerce:new-client",
     "updated_at": null,
     "files": {
-        ".env.example": "ea590cee316f9ef01d44f71a08b6e7843c3fafbd",
+        ".env.example": "66f65a0e74e9f9036a6ea84332ea89f0dea55969",
         ".gitignore": "bbf445f635e90009be63ec31b58b20d640a38514",
         "README.md": "739ab41d3b2e63e47068ebb90322ba1a731d675e",
         "app/Http/Controllers/Controller.php": "a33a5105f92c73a309c9f8a549905dcdf6dccbae",
@@ -21,10 +21,10 @@
         "bootstrap/app.php": "c7457e3f656fedc9d04027305e610b3135d589a1",
         "bootstrap/cache/.gitignore": "886e6d00ac28a586434ae1b6320c0bb185e3ddfc",
         "bootstrap/providers.php": "d05f9a39b2bc27a10caeec08f37b47081df0d6b0",
-        "composer.json": "21c76805074e6eadeb437cd3b5c8ecfadf774b9f",
+        "composer.json": "2fc020469244e8348fd0cae75a26e1e089013347",
         "config/commerce-import.php": "cb69e511aeef9634c6a7a511db06d73249f735cb",
-        "config/commerce.php": "0bfe6f5237ea137e3475803fd183f26a964ce1af",
-        "config/database.php": "cdaad6198271db6071cad8d712b82a2a58a4c7b2",
+        "config/commerce.php": "a7ecbbcff33156aaeaa7f273c1ff8a041864bb4c",
+        "config/database.php": "5bd90392bdfeed383c3c307428539e7630903ebe",
         "config/filesystems.php": "a828ee5ff166d91fb2eceb5970b08c8d15b62996",
         "config/trustedproxy.php": "a166379856d65a94fcf9328867b04f20768efe32",
         "database/factories/UserFactory.php": "7a0e14be8b38d47f6c45ce9506fd0996b23da7df",
@@ -49,5 +49,5 @@
         "tests/TestCase.php": "62b0a69b57e42c400b9d4b9d1d66280b67e175fa",
         "themes/README.md": "c9e916dd2d2a63788ddaa821acf4204528d7dc30"
     },
-    "created_at": "2026-10-02"
+    "created_at": "2026-10-23"
 }
