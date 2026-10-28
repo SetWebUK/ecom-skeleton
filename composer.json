@@ -5,7 +5,7 @@
     "description": "Commerce Skeleton - online shop on Pine Commerce (Laravel)",
     "license": "MIT",
     "repositories": [
-        {"type":"vcs","url":"https://github.com/SetWebUK/ecom-core.git"}
+        {"type":"vcs","url":"https://github.com/SetWebUK/ecom-core.git","no-api":true}
     ],
     "require": {
         "php": "^8.3",
