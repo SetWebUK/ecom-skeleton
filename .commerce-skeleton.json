@@ -1,6 +1,6 @@
 {
     "repository": "https://github.com/SetWebUK/ecom-skeleton.git",
-    "ref": "v1.8.0",
+    "ref": "v1.9.0",
     "commit": null,
     "name": "Commerce Skeleton",
     "slug": "commerce-skeleton",
@@ -21,7 +21,7 @@
         "bootstrap/app.php": "c7457e3f656fedc9d04027305e610b3135d589a1",
         "bootstrap/cache/.gitignore": "886e6d00ac28a586434ae1b6320c0bb185e3ddfc",
         "bootstrap/providers.php": "d05f9a39b2bc27a10caeec08f37b47081df0d6b0",
-        "composer.json": "2075e76b7b7dc4cc31f57748593011321d1fbf32",
+        "composer.json": "17fc5d27c5914ca5d989439eb036825a6a28af26",
         "config/commerce-import.php": "cb69e511aeef9634c6a7a511db06d73249f735cb",
         "config/commerce.php": "a7ecbbcff33156aaeaa7f273c1ff8a041864bb4c",
         "config/database.php": "5bd90392bdfeed383c3c307428539e7630903ebe",
